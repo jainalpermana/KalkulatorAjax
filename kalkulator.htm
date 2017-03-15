@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Kalkulator</title>
+<script type="text/javascript" src="kalkulator.js"></script>
+</head>
+
+<body>
+<h2>Membuat Aplikasi Kalkulator Menggunakan AJAX</h2>
+
+<form name="form1">
+
+
+<!-- input bilangan pertama -->
+
+<input type="text" id="bil1" />
+
+<!-- pilihan jenis operasi -->
+
+<select id="operasi">
+<option value="penjumlahan">dijumlahkan dengan</option>
+<option value="pengurangan">dikurangkan dengan</option>
+<option value="perkalian">dikalikan dengan</option>
+<option value="pembagian">dibagi dengan</option>
+</select>
+
+<!-- input bilangan kedua -->
+
+<input type="text" id="bil2" /><br />
+
+<!-- tombol hitung -->
+
+<input type="button" value="Hitung" onclick="hitung()" />
+</form>
+
+<!-- bagian untuk menampilkan output -->
+
+<p><div id="output" /></p>
+
+</body>
+</html>
